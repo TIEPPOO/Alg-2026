@@ -1,0 +1,37 @@
+programa {
+  funcao inicio() {
+    real valorcompra
+    real valor_desconto
+    
+
+    escreva ("Valor da compra: R$ ")
+    leia (valorcompra)
+
+    valorfinal = calculodesconto (valor_desconto)
+
+    escreva ("Valor total: R$", valorfinal)
+
+
+
+    
+  }
+  
+  funcao real calculodesconto (real valorfinal)
+  {
+    se (valorcompra >=100 e valorcompra <=199){
+      retorne valorcompra * 0.10
+    }
+    senao se (valorcompra >= 200 e valorcompra <=499){
+      retorne valorcompra *0.15
+    }
+    senao se (valorcompra >= 500) {
+      retorne valorcompra * 0.20
+    }
+    senao {
+      retorne valorcompra
+    }
+
+  }
+
+
+}
