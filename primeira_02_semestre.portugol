@@ -1,0 +1,25 @@
+programa {
+  funcao compra() {
+    
+    funcao real valor_desconto(real valor_compra)
+    se (valor_compra >= 100 e valor_compra <=299){
+      retorne valor_compra * 0.90
+    }
+     senao se (valor_compra >= 300 e valor_compra <=499){
+      retorne valor_compra * 0.85
+     }
+  senao se (valor_)
+  }
+
+  funcao opcoes_pagamento() {
+
+    
+    
+  }
+
+  funcao desconto_progressivo() {
+    
+  }
+
+
+}
